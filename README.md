@@ -1,6 +1,6 @@
 # K-Means_DBSCAN
 
-##Cluster the IRIS dataset using both K-means and DBSCAN
+## Cluster the IRIS dataset using both K-means and DBSCAN
 Justify the k you choose using silohuette coefficient and the Elbow method:
 
 - The K used in K-Means is the result where the decrease in inertia begins to slow in the elbow curve.
