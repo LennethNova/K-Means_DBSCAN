@@ -14,7 +14,7 @@ Which parameters did you use for DBSCAN?
 
 Which algorithm better cluster the IRIS dataset and why?
 
-- Both have favorable points, while the silhouette score in K-Means is a little bit lower compared with the socre in DBSCAN, both can detect 3 clusters, the difference is that the noise in DBSCAN detected 8 points that could be considered as outliers.
+- Both have favorable points, while the silhouette score in K-Means is a little bit lower compared with the socre in DBSCAN, both can detect 3 clusters, the difference is that the noise in DBSCAN detected 8 points that could be considered as outliers. In this case, the K-Means helps with the clustering a litte bit better but it is due to its nature since there are few variables.
 
 To run the 3d Graphs just download the code and the libraries that are needed.
 
