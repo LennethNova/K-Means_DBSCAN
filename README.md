@@ -26,6 +26,9 @@ This is the image of the 3d graph for DBSCAN:
 
 
 ## Apply PCA to the IRIS dataset.
+
+*Note:* This is using the PCA_IrisDF.ipynb file.
+
 Two principal components were selected since the first PCA contains 72.77% of the variance, and the
 second 23.03%, givig an amount of 95.80% of the information. Adding an additional only provided
 about 3% extra so it was discarded.
