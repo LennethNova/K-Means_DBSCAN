@@ -31,11 +31,11 @@ second 23.03%, givig an amount of 95.80% of the information. Adding an additiona
 about 3% extra so it was discarded.
 
 Make a 2D or 3D visualization of the transformed data.
-![Clusters PCA](imgs/cluster_pca.PNG)
-![Iris Clusters PCA](imgs/PCA_Class.PNG)
+![Clusters_PCA](imgs/cluster_pca.PNG)
+![Iris_Clusters_PCA](imgs/PCA_Class.PNG)
 
 Make a correlation matrix with both original variables and the generated principal components.
-![Iris Correlation Matrix Kmeans](imgs/corr_kmeans.PNG)
+![Iris_Correlation_Matrix_Kmeans](imgs/corr_kmeans.PNG)
 
-![Iris Correlation Matrix PCA](imgs/corr_pca.PNG)
+![Iris_Correlation_Matrix_PCA](imgs/corr_pca.PNG)
 Explain the correlations you observe between both variable sets.
