@@ -5,6 +5,7 @@ __pycache__/
 
 # Ignored files
 KMeans_DBSCAN.pdf
+PCA_IrisDF.pdf
 
 # C extensions
 *.so
