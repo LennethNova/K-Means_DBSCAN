@@ -23,3 +23,19 @@ This is the image of the 3d graph for k-means:
 
 This is the image of the 3d graph for DBSCAN:
 ![DBSCAN](imgs/DBSCAN.PNG)
+
+
+## Apply PCA to the IRIS dataset.
+Two principal components were selected since the first PCA contains 72.77% of the variance, and the
+second 23.03%, givig an amount of 95.80% of the information. Adding an additional only provided
+about 3% extra so it was discarded.
+
+Make a 2D or 3D visualization of the transformed data.
+![Clusters PCA](imgs/cluster_pca.PNG)
+![Iris Clusters PCA](imgs/PCA_Class.PNG)
+
+Make a correlation matrix with both original variables and the generated principal components.
+![Iris Correlation Matrix Kmeans](imgs/corr_kmeans.PNG)
+
+![Iris Correlation Matrix PCA](imgs/corr_pca.PNG)
+Explain the correlations you observe between both variable sets.
