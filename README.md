@@ -30,7 +30,7 @@ Two principal components were selected since the first PCA contains 72.77% of th
 second 23.03%, givig an amount of 95.80% of the information. Adding an additional only provided
 about 3% extra so it was discarded.
 
-Make a 2D or 3D visualization of the transformed data.
+### Make a 2D or 3D visualization of the transformed data.
 ![Clusters_PCA](imgs/cluster_pca.png)
 ![Iris_Clusters_PCA](imgs/PCA_Class.png)
 
@@ -39,7 +39,8 @@ Make a correlation matrix with both original variables and the generated princip
 
 ![Iris_Correlation_Matrix_PCA](imgs/corr_pca.png)
 
-Explain the correlations you observe between both variable sets.
+### Explain the correlations you observe between both variable sets.
+
 In the first one, it can be seen that some components are highly related on a positive or negative note. Positive correlation indicates that if the value of the variable increases, the other increases as well and it will be noticed on the correlated parameter. Negative correlation indicates the opposite. A correlation close to 1 shows a strong positive correlation, whereas close to –1 shows a strong negative correlation. In the prediction of the class, sepal length and width are ones that have higher correlation to it, while petal length and width have less correlation, but since there is a positive correlation it could affect the prediction.
 
 In the second matrix, one can denote that there are two main dimentional vectors onto which one can visualize the actual differences among the analyzed parameters, in such dimensions, one can distinguish different species only considering this principal components. The first component has a higher correlation to predicting the class, while the second has less correlation. The principal component one has a negative correlation to the principal component two, but is extremely low
