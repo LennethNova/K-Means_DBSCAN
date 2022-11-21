@@ -31,13 +31,13 @@ second 23.03%, givig an amount of 95.80% of the information. Adding an additiona
 about 3% extra so it was discarded.
 
 Make a 2D or 3D visualization of the transformed data.
-![Clusters_PCA](https://github.com/LennethNova/K-Means_DBSCAN/blob/main/imgs/cluster_pca.PNG)
-![Iris_Clusters_PCA](https://github.com/LennethNova/K-Means_DBSCAN/blob/main/imgs/PCA_Class.PNG)
+![Clusters_PCA](imgs/cluster_pca.PNG)
+![Iris_Clusters_PCA](imgs/PCA_Class.PNG)
 
 Make a correlation matrix with both original variables and the generated principal components.
-![Iris_Correlation_Matrix_Kmeans](https://github.com/LennethNova/K-Means_DBSCAN/blob/main/imgs/corr_kmeans.PNG)
+![Iris_Correlation_Matrix_Kmeans](imgs/corr_kmeans.PNG)
 
-![Iris_Correlation_Matrix_PCA](https://github.com/LennethNova/K-Means_DBSCAN/blob/main/imgs/corr_pca.PNG)
+![Iris_Correlation_Matrix_PCA](imgs/corr_pca.PNG)
 
 Explain the correlations you observe between both variable sets.
 In the first one, it can be seen that some components are highly related on a positive or negative note.
@@ -48,13 +48,5 @@ prediction of the class, sepal length and width are ones that have higher correl
 and width have less correlation, but since there is a positive correlation it could affect the prediction.
 In the second matrix, one can denote that there are two main dimentional vectors onto which one can
 visualize the actual differences among the analyzed parameters, in such dimensions, one can distinguish
-In [26]:
-# Corralation Matrix PCA Components
-# Set the range of values to be displayed on the colormap from -1 to 1, and set the anno
-heatmapcorr = sn.heatmap(df_iris_pca.corr(), vmin=-1, vmax=1, annot=True, cmap='BuGn')
-# Give a title to the heatmap. Pad defines the distance of the title from the top of the 
-heatmapcorr.set_title('Correlation Heatmap', fontdict={'fontsize':12}, pad=12);
-different species only considering this principal components. The first component has a higher correlation to
-predicting the class, while the second has less correlation. The principal component one has a negative
-correlation to the principal component two, but is extremely low.
+
 
